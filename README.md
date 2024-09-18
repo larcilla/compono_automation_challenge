@@ -19,7 +19,7 @@ Before running the tests, make sure you have the following installed:
 1. **Cloning repository**
 
     ```bash
-   git clone https://github.com/your-username/behave-selenium-framework.git
+   git clone https://github.com/larcilla/compono_automation_challenge.git
 
 2. **Install behave**
 
