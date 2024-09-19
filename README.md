@@ -5,14 +5,24 @@
 This is a test automation framework built using the **Python Behave** BDD framework and **Selenium WebDriver**. 
 It allows writing and executing automated browser tests in a natural language format (Gherkin).
 
-## Prerequisites
+## Preconditions
 
 Before running the tests, make sure you have the following installed:
 
-- Python 3.x
-- pip (Python package installer)
-- Web browser (e.g., Chrome)
-- WebDriver (e.g., ChromeDriver)
+- **Python 3.x**: Ensure you have Python installed.
+- **pip**: Python's package installer, which is usually included with Python installations. To verify, run the following command:
+    ```bash
+   pip --version
+- **Web browser**: Ensure you have a web browser installed (e.g., Chrome).
+- **WebDriver**: Ensure the corresponding WebDriver is installed for your browser (e.g., ChromeDriver).
+
+## User Prerequisites
+
+Before running the tests using Behave, assume the following conditions for the user:
+
+- The user is registered and logged in to the Hire platform.
+- The user's email address has been verified after registration.
+- The user has completed and entered information on the Personal Details page.
 
 ## Installation
 
